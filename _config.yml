@@ -15,7 +15,7 @@ google_analytics:
 google_verification:
 
 # Optional features
-animated:             true
+animated:             false
 show_related_posts:   true
 show_post_footers:    true
 show_social_icons:    true
