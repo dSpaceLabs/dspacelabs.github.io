@@ -1,4 +1,3 @@
-permalink: /:year/:month/:day/:title/
 exclude: [CNAME, config.rb, Gemfile, Gemfile.lock]
 highlighter: pygments
 paginate: 10
@@ -16,10 +15,10 @@ google_analytics:
 google_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
+animated:             true
+show_related_posts:   true
+show_post_footers:    true
+show_social_icons:    true
 ajaxify_contact_form: false
 
 # Disqus post comments
@@ -57,7 +56,7 @@ share_hackernews: false
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
+permalink: /:year/:month/:day/:title/
 paginate:     4
 sass:
   compressed: true
