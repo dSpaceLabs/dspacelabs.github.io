@@ -1,4 +1,4 @@
-exclude: [CNAME, config.rb, Gemfile, Gemfile.lock]
+exclude: [CNAME, config.rb, Gemfile, Gemfile.lock, LICENSE.txt, Rakefile, README.md]
 highlighter: pygments
 paginate: 10
 paginate_path: ":num"
