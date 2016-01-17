@@ -9,6 +9,7 @@ description: "dSpace Labs"
 baseurl: ""
 url: "http://dspacelabs.com"
 date_format: "%b %-d, %Y"
+excerpt_separator: "<!--more-->"
 
 # Google services
 google_analytics: UA-51216623-6
